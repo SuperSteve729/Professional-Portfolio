@@ -80,11 +80,6 @@ header {
     font-size: 24px;
 }
 
-.aboutme-text p {
-}
-
-/*Doo Doo Fart Edit*/
-
 .container {
     position: relative;
 }
@@ -108,10 +103,16 @@ header {
     font-size: 24px;
 }
 
+
+
 .work > li {
-    flex-basis: 250px; /* The width of items*/
+    flex-basis: 300px; /* The width of items*/
     margin: 10px;
-  }
+}
+
+#big-container {
+    flex-basis: 500px; /* The width of items*/
+}
 
 .work li img {
     object-fit: cover;
@@ -119,7 +120,7 @@ header {
     height: auto;
     vertical-align: middle;
     border-radius: 5px;
-  }
+}
 
 .break {
     flex-basis: 100%;
@@ -130,10 +131,7 @@ header {
     border: 5px solid aqua;
 }
 
-/*End Doo Doo Fart Edited*/
-
 .contact-list {
-    background-color: blue;
     margin: auto;
 }
 
@@ -141,7 +139,6 @@ header {
     display: flex;
     gap: 50px;
     flex-flow: row wrap;
-    background-color: aqua;
 }
 
 .contact-stuff li {
